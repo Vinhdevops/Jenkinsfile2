@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker {image 'ubuntu:lasted'}
+        docker {image 'ubuntu:latest'}
     }
     stages {
         stage('Clone') {
