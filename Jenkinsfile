@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        docker {image 'ubuntu:lasted'}
+    }
     stages {
         stage('Clone') {
             steps {
